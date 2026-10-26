@@ -5,16 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Ground
+  - Sampah
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Waste
+  - Player
+  - Projectile
   - 
   - 
   - 

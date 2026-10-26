@@ -277,12 +277,10 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2911910411633791697, guid: 79101e63462fc8f458bfc1925650ee65, type: 3}
   firstSpawnDelay: 1
   spawnInterval: 3
-  minimumSpawnInterval: 0.5
-  difficultyInterval: 15
-  intervalDecreasePerPhase: 0.25
-  extraEnemiesPerDifficulty: 1
-  spawnWidth: 8
-  spawnHeight: 1
+  spawnPoints:
+  - {fileID: 1936482532}
+  - {fileID: 1964079671}
+  - {fileID: 883639053}
 --- !u!4 &739956577
 Transform:
   m_ObjectHideFlags: 0

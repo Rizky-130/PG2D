@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Bullet : WasteItem
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -9,6 +9,10 @@ public class Bullet : MonoBehaviour
             // Handle collision with enemy
             collision.GetComponent<EnemyHealth>().Die();
             Destroy(gameObject); // Destroy the bullet GameObject
+        }
+        if (collision.CompareTag("Sampah"))
+        {
+            Destroy(gameObject);
         }
     }
 }
